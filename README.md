@@ -5,13 +5,6 @@ qualifies leads over the phone, syncs outcomes to a CRM, and hands off to a
 human whenever speech-recognition confidence drops too low to trust an
 automated response.
 
-This is a portfolio/demo implementation showing the architecture and decision
-logic behind a production voice-agent system: the same slot-filling dialogue
-flow, confidence-based escalation, and CRM sync pattern, built with
-provider-agnostic adapters so it runs standalone with no paid API keys, and
-can be pointed at real Deepgram / ElevenLabs / Anthropic / Twilio / LiveKit
-credentials for a live deployment.
-
 ## Architecture
 
 ```
